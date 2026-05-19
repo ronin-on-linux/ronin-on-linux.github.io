@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+
+        <title class="courier-prime-bold">ronin-on-linux</title>
+
+        <meta name="color scheme" content="dark light">
+
+        <!--basic css for dark mode and browser light mode detection-->
+        <style>
+            /* dark mode style */
+            body {
+                background-color: #121212;
+                color: whitesmoke;
+                link
+            }
+            
+            /* light mode style */
+            @media (prefers-color-scheme: light) {
+                body {
+                background-color: white;
+                color: black;
+                }   
+            }
+
+            .courier-prime-regular {
+                font-family: "Courier Prime", monospace;
+                font-weight: 400;
+                font-style: normal;
+            }
+
+            .courier-prime-bold {
+                font-family: "Courier Prime", monospace;
+                font-weight: 700;
+                font-style: normal;
+            }
+
+            .profile-picture {
+                width: 200px;
+                aspect-ratio: 1;
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: center;
+
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+            }
+
+            .screenplay-page-container {
+                width: 50rem;
+
+                margin-left: auto;
+                margin-right: auto;
+
+                transform: translateX(1rem);
+            }
+            
+            .centered {
+                text-align: center;
+            }
+
+            .character {
+                text-align: left;
+
+                transform: translateX(20rem);
+            }
+
+            .dialogue-container {
+                max-width: 500px;
+                text-align: center;
+
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 3rem;
+
+                transform: translateX(-4rem);
+            }
+
+            .transition {
+                text-align: right;
+            }
+
+            .title-page-margin {
+                margin-bottom: 5rem;
+            }
+
+        </style>
+    </head>
+    <body>
+        <main class="screenplay-page-container">
+            <img src="profile-picture.gif" class="profile-picture" alt="Profile Picture">
+            <h2 class="courier-prime-bold centered">MY RUDIMENTARY WEBSITE</h2>
+            <h2 class="courier-prime-regular centered">Written by</h2>
+            <h2 class="courier-prime-regular centered title-page-margin">ronin-on-linux</h2>
+
+            <h2 class="courier-prime-bold">INT. RONIN HOMEPAGE - NIGHT</h2>
+            <h2 class="courier-prime-regular">
+                RONIN-ON-LINUX(20's, 3D Artist) is using this platform to document his workflow migration to Linux, while also making videos and exploring different creative mediums, ideas and interests.
+            </h2>
+            <h2 class="courier-prime-regular transition">CUT TO:</h2>
+            <h2 class="courier-prime-regular character">RONIN</h2>
+            <div class="dialogue-container">
+                <h2 class="courier-prime-regular">I am also trying to get back into coding and python, so I have started a <a href="https://github.com/ronin-on-linux/">GitHub</a> to post those adventures. Most of which will be open source. See below what I am currently working on!</h2>
+            </div>
+            <h2 class="courier-prime-regular">
+                <a href="https://www.youtube.com/@ronin-on-linux">My YouTube Channel</a> is where most of my videos and ideas will be presented!
+            </h2>
+            <h2 class="courier-prime-regular">
+                <a href="https://ronin-on-linux.github.io/bamboo-fountain-web/">bamboo-fountain-web</a>, a web-based screenwriting app that ronin-on-linux has created to start filling the screenwriting software gap on Linux. Ronin plans on developing a native python/gtk version that will have extended screenwriting features in the near future.
+            </h2>
+        </main>
+        <script>anchors.add();</script>
+    </body>
+</html>
