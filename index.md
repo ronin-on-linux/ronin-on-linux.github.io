@@ -12,5 +12,5 @@ One of my first projects back in html and css in a while. Its simple but still v
 
 Its a bit verbose right now, but I couldn't care less since I enjoyed making it!
 
-{: .note }
+[!NOTE]
 > This is a note callout.
