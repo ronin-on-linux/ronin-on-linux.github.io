@@ -11,6 +11,3 @@ ronin-on-linux Website in a screeplay-esk format
 One of my first projects back in html and css in a while. Its simple but still very easily hightlights my interests in screenwriting and presents my projects in an interesting way. 
 
 Its a bit verbose right now, but I couldn't care less since I enjoyed making it!
-
-[!NOTE]
-> This is a note callout.
