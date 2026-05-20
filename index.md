@@ -1,4 +1,5 @@
 ---
+layout: post
 title: ronin-on-linux
 ---
 
