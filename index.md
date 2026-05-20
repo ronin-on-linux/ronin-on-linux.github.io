@@ -1,5 +1,6 @@
 ---
 title: ronin-on-linux
+markdown: kramdown
 ---
 
 # ronin-on-linux.github.io
